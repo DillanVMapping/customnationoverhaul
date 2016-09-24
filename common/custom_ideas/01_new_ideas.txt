@@ -1,0 +1,307 @@
+# cost = CFixedPoint( base_cost + ( level * level * level_cost ) ).GetTruncated()
+# DEFAULT: base_cost = 0, level_cost = 0.4, max_level = 4
+
+new_idea_adm_modifiers = {
+	category = ADM	
+	custom_idea_years_of_nationalism = {
+		years_of_nationalism = -5
+		max_level = 2
+		level_cost_1 = 5
+		level_cost_2 = 30
+	}
+	custom_idea_female_advisor_chance = {
+		female_advisor_chance = 0.1
+		max_level = 10
+		level_cost_1 = 0
+		level_cost_2 = 0
+		level_cost_3 = 0
+		level_cost_4 = 0
+		level_cost_5 = 0
+		level_cost_6 = 0
+		level_cost_7 = 0
+		level_cost_8 = 0
+		level_cost_9 = 0
+		level_cost_10 = 0
+	}
+	 	custom_idea_reduced_stab_impacts = {
+		reduced_stab_impacts = yes
+        	level_cost_1 = 50
+		max_level = 1
+	}	
+	    custom_idea_no_religion_penalty = {
+		no_religion_penalty = yes
+        	level_cost_1 = 0
+		max_level = 1
+	}
+	    custom_idea_cb_on_religious_enemies = {
+		cb_on_religious_enemies = yes
+        	level_cost_1 = 0
+		max_level = 1
+	}
+	    custom_idea_cb_on_primitives = {
+		cb_on_primitives = yes
+        	level_cost_1 = 0
+		max_level = 1
+	}
+	    custom_idea_cb_on_overseas = {
+		cb_on_overseas = yes
+        	level_cost_1 = 0
+		max_level = 1
+	}
+	    custom_idea_cb_on_government_enemies = {
+		cb_on_government_enemies = yes
+        	level_cost_1 = 0
+		max_level = 1
+	}
+	    custom_idea_all_power_cost = {
+		all_power_cost = -0.05
+
+		level_cost_1 = 30
+		max_level = 1
+		
+	}
+	    custom_idea_max_states = {
+		max_states = 5
+
+		level_cost_1 = 20
+		level_cost_2 = 40
+		level_cost_3 = 60
+		level_cost_4 = 80	
+		level_cost_5 = 100	
+		max_level = 5
+	}
+	    custom_idea_yearly_corruption = {
+		yearly_corruption = -0.01
+
+		level_cost_1 = 20
+		level_cost_2 = 40
+		level_cost_3 = 60
+		level_cost_4 = 80	
+		level_cost_5 = 120	
+		max_level = 5
+	}
+		custom_idea_church_power_modifier = {
+		church_power_modifier = 0.01
+
+		level_cost_1 = 5
+		level_cost_2 = 10
+		level_cost_3 = 15
+		level_cost_4 = 20	
+		level_cost_5 = 25
+		max_level = 5
+		
+	}
+	custom_idea_global_tax_income = {
+		global_tax_income = 1
+		
+		level_cost_1 = 5
+		level_cost_2 = 10
+		level_cost_3 = 15
+		level_cost_4 = 20	
+		level_cost_5 = 25	
+		max_level = 5
+	}
+		custom_idea_adm_tech_cost_modifier = {
+		adm_tech_cost_modifier = -0.05
+		
+		level_cost_1 = 5
+		level_cost_2 = 30
+		level_cost_3 = 60	
+		max_level = 3
+	}
+		custom_idea_papal_influence = {
+		papal_influence = 0.
+		
+		level_cost_1 = 5
+		level_cost_2 = 10
+		level_cost_3 = 5
+		level_cost_4 = 20	
+		level_cost_5 = 25		
+		max_level = 5
+
+	}
+		custom_idea_monthly_fervor_increase = {
+		monthly_fervor_increase = 0.2
+		
+		level_cost_1 = 10
+		level_cost_2 = 20
+		level_cost_3 = 30
+		level_cost_4 = 40	
+		level_cost_5 = 50		
+		max_level = 5
+	}
+		custom_idea_global_heretic_missionary_strength = {
+		global_heretic_missionary_strength = 0.005
+		
+		level_cost_1 = 10
+		level_cost_2 = 20
+		level_cost_3 = 30
+		level_cost_4 = 40	
+		level_cost_5 = 50	
+		max_level = 5
+	}
+}
+
+new_idea_mil_modifiers = {
+	category = MIL	
+	custom_idea_female_generals = {
+		may_recruit_female_generals = yes
+		max_level = 1
+		level_cost_1 = 5
+	}	
+	custom_idea_no_cost_for_reinforcing = {
+		no_cost_for_reinforcing = yes
+        	level_cost_1 = 50
+		max_level = 1
+	}
+	custom_idea_extra_manpower_at_religious_war = {
+		extra_manpower_at_religious_war = yes
+        	level_cost_1 = 50
+		max_level = 1
+	}
+	custom_idea_raze_power_gain = {
+		raze_power_gain = 0.05
+		level_cost_1 = 5
+		level_cost_2 = 20
+		level_cost_3 = 40
+		level_cost_4 = 60	
+		level_cost_5 = 80		
+		
+		max_level = 5
+	}
+	custom_idea_loot_amount = {
+		loot_amount = 0.05
+		level_cost_1 = 5
+		level_cost_2 = 20
+		level_cost_3 = 40
+		level_cost_4 = 60	
+		level_cost_5 = 0		
+		
+		max_level = 5
+	}
+
+}
+
+
+new_idea_dip_modifiers = {
+	category = DIP	
+	
+	custom_idea_global_sailors_modifier = {
+		global_sailors_modifier = 0.1
+	}
+	custom_idea_sailors_recovery_speed = {
+		sailors_recovery_speed = 0.05
+	}
+	custom_idea_slave_raiders = {
+		may_perform_slave_raid = yes
+		max_level = 1
+		level_cost_1 = 20
+	}
+	    custom_idea_sea_repair = {
+		sea_repair = yes
+        	level_cost_1 = 50
+		max_level = 1
+	}
+	    custom_idea_may_explore = {
+		may_explore = yes
+        	level_cost_1 = 50
+		max_level = 1
+	}
+	    custom_idea_idea_claim_colonies = {
+		idea_claim_colonies = yes
+        	level_cost_1 = 50
+		max_level = 1
+	}
+	    custom_idea_auto_explore_adjacent_to_colony = {
+		auto_explore_adjacent_to_colony = yes
+        	level_cost_1 = 50
+		max_level = 1
+	}
+	custom_idea_caravan_power = {
+		caravan_power = 0.05
+		level_cost_1 = 5
+		level_cost_2 = 10
+		level_cost_3 = 15
+		level_cost_4 = 20	
+		level_cost_5 = 25
+		max_level = 5
+	}
+		custom_idea_native_uprising_chance = {
+		native_uprising_chance = -0.2
+		level_cost_1 = 40
+		level_cost_2 = 80
+		level_cost_3 = 120
+		level_cost_4 = 180	
+		level_cost_5 = 360		
+		max_level = 5
+	}
+	custom_idea_native_assimilation = {
+		native_assimilation = 0.2		
+		level_cost_1 = 40
+		level_cost_2 = 80
+		level_cost_3 = 120
+		level_cost_4 = 180	
+		level_cost_5 = 360		
+		max_level = 5
+	}
+		custom_idea_colonist_placement_chance = {
+		colonist_placement_chance = 0.02
+		
+		level_cost_1 = 10
+		level_cost_2 = 20
+		level_cost_3 = 30
+		level_cost_4 = 40	
+		level_cost_5 = 50		
+		max_level = 5
+	}
+		custom_idea_unjustified_demands = {
+		unjustified_demands = -0.05
+		
+		level_cost_1 = 10
+		level_cost_2 = 30
+		level_cost_3 = 60
+		level_cost_4 = 90	
+		level_cost_5 = 120		
+		max_level = 5
+	}
+		custom_idea_relations_decay_of_me = {
+		relations_decay_of_me = 0.05
+		
+		level_cost_1 = 10
+		level_cost_2 = 20
+		level_cost_3 = 30
+		level_cost_4 = 40
+		level_cost_5 = 50	
+		max_level = 5
+	}
+		custom_idea_fabricate_claims_time = {
+		fabricate_claims_cost = -0.05
+		
+		level_cost_1 = 10
+		level_cost_2 = 20
+		level_cost_3 = 30
+		level_cost_4 = 40	
+		level_cost_5 = 50	
+		max_level = 5
+	}
+		custom_idea_dip_tech_cost_modifier = {
+		dip_tech_cost_modifier = -0.05
+		
+		level_cost_1 = 5
+		level_cost_2 = 30
+		level_cost_3 = 60
+		max_level = 3
+	}
+		custom_idea_trade_range_modifier = {
+		trade_range_modifier = 0.05
+		
+		level_cost_1 = 5
+		level_cost_2 = 10
+		level_cost_3 = 15
+		level_cost_4 = 20	
+		level_cost_5 = 25		
+		max_level = 5
+	}
+}
+
+	

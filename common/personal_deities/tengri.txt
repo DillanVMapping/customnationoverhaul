@@ -1,0 +1,15 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new dieties, make sure they are uniquely named.
+deity_oghuz =
+{
+
+	allow = { religion = tengri_pagan_reformed }
+	sprite = 1
+	
+	land_morale = 0.2
+	
+	ai_will_do = {
+		factor = 1	
+	}
+}
+}
